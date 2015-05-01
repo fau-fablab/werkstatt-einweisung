@@ -1,0 +1,190 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COPYRIGHT: (C) 2012-2015 FAU FabLab and others
+% Bearbeitungen ab 2015-02-20 fallen unter CC-BY-SA 3.0
+% Sobald alle Mitautoren zugestimmt haben, steht die komplette Datei unter CC-BY-SA 3.0. Bis dahin ist der Lizenzstatus aller alten Bestandteile ungeklärt.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\basedir}{fablab-document}
+\documentclass[13pt]{\basedir/fablab-document}
+
+%\usepackage[margin=1.5cm]{geometry}
+%\topmargin 0cm
+%\usepackage{times} % Times New Roman oder ähnliche Schriftart
+%\setkomafont{sectioning}{\normalcolor\bfseries} %auch für Überschriften
+\usepackage[utf8x]{inputenc}
+
+%\usepackage[T1]{fontenc}
+%\usepackage{url}
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=true,urlcolor=blue}
+
+%\usepackage{graphicx} % Grafiken einbinden
+%\usepackage[ngerman]{babel} % benötigt Paket texlive-lang-german, wenn ein Fehler "no hyphenation patterns ..." kommt
+\date{2013}
+%\pagestyle{empty} % keine Seitennummern
+%\sffamily
+%\author{Philipp, Max, Patrick} %ausgetauscht durch:
+\author{kontakt@fablab.fau.de}
+\title{Allgemeine Werkstattregeln}
+\linespread{1} % Zeilenabstand
+
+\usepackage{parskip} % Abstände zwischen Absätzen / Listenelementen
+ \setlength{\parskip}{0.7\parskip}
+% \setlength{\parsep}{0pt}
+% \setlength{\headsep}{0pt}
+% \setlength{\topskip}{0pt}
+% \setlength{\topmargin}{0pt}
+% \setlength{\topsep}{0pt}
+% \setlength{\partopsep}{0pt}
+
+% \usepackage[compact]{titlesec} % Abstände bei Überschriften
+% \titlespacing{\section}{0pt}{*0.5}{*0}
+% \titlespacing{\subsection}{0pt}{*0.3}{*0}
+%\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+%\fancyfoot[L]{}
+%\fancyfoot[C]{}
+%\fancyfoot[R]{Version 2, April 2012}
+
+\setcounter{secnumdepth}{0}
+
+% solche Wörter werden nicht getrennt!
+\hyphenation{Mechanikwerkstatt}
+
+% Neuer Befehl \subscript (Text tiefgestellt) von http://anthony.liekens.net/index.php/LaTeX/SubscriptAndSuperscriptInTextMode
+%\newcommand{\subscript}[1]{\ensuremath{_{\textrm{\small{#1}}}}}
+
+\begin{document}
+
+\maketitle
+
+\vbox{\vspace{1cm}}
+
+
+\section{Verhaltensregeln}
+\begin{itemize}
+  \item Für selbstständiges Arbeiten in den FabLab-Räumen sind meist Einweisungen erforderlich
+  \item Maschinen und Werkzeuge pfleglich behandeln! Alles Defekte gleich beim Betreuer abgeben
+  % "Alles Defekte aussortieren" wird benötigt! (siehe Gefährdungsbeurteilung Mechanikwerkstatt)
+  \item \textbf{Ordnung halten!} Dreck und Reste wegwerfen
+  \item \textbf{Sorgfältig arbeiten}, bei Unklarheiten nachfragen
+  \item Bei Unfällen
+  \begin{itemize}
+  	\item Betreuer benachrichtigen (Keine Angst, wir sind euch nicht böse, wenn etwas passiert!)
+  	\item Unfall in das Verbandbuch (im Verbandskasten, befindet sich z.B. im Durchgang zur E-Werkstatt) eintragen, weitere Infos stehen dort
+  	% TODO im Verbandsbuch folgende Infos anbringen:
+  	% Sobald auch nur ein Pflaster benötigt wurde, Unfall in das Verbandbuch eintragen.
+  	% Wenn ärztliche Versorgung notwendig ist: Unfall möglichst schnell der Uni melden. Nur so besteht die Möglichkeit, dass die Versicherung der Uni für Schäden aufkommt.
+  	% Melde-Formular ... ? Blabla aus Checkliste
+  \end{itemize} 
+  \item Den Anweisungen der Betreuer ist Folge zu leisten
+\end{itemize}
+\vbox{\vspace{0,5cm}}
+
+\section{Ampelsystem}
+Aufschrift der Ampelsymbole an den Geräten befolgen!
+\begin{itemize}
+ \item ROT: nur mit Betreuer / auf Nachfrage verwenden
+ \item GELB: mit unterschriebener Einweisung
+ \item GRÜN: zur freien Verwendung
+\end{itemize}
+
+\vbox{\vspace{0,5cm}}
+
+\section{Elektronik}
+\begin{itemize}
+  \item Wenn du in der E-Werkstatt Laborgeräte (Lötstation, Netzteil, etc.) verwenden willst, musst du vorher eine Einweisung in diese Regeln unterschreiben
+  \item \textbf{Keine Netzspannung} verwenden! Maximal 60V Gleich- oder 25V\subscript{eff} Wechselspannung (Schutzkleinspannung). Auch nicht durch Zusammenschalten von Netzteilen/Akkus
+  % Nachsatz ist notwendig, ist entsprechend im Sicherheitskonzept erwähnt.
+
+  % GUV-SI 8038: ... bei Lötarbeiten Essen, Trinken, Rauchen und Schminken untersagt ist. Nach der Arbeit ist gründliches Händewaschen erforderlich.
+ \item Beim Löten nicht essen, trinken oder schminken. Danach Hände waschen. (Flussmittel)
+ \item Nach Benutzung: Schalter am Tisch ausschalten
+ %\item Lötspitze nach dem Putzen gleich wieder verzinnen (sonst Verschleiß durch Oxidation)
+ %\item Kein bleifreies Lot mit unseren Lötkolben verwenden: Korrosion der Lötspitze.
+\end{itemize}
+
+
+\section{Metallbearbeitung}
+\begin{itemize}
+	\item Die meisten Werkzeuge sind für Edelstahl bzw.\  gehärteten Stahl (z.B. polierte Wellen) nicht geeignet
+	\item Nach getaner Arbeit:
+	\begin{itemize}
+		\item Bohrspäne wegkehren oder saugen
+		\item Werkzeuge ausspannen und aufräumen
+		\item auch Proxxon-Werkzeuge zurück legen
+	\end{itemize}
+\end{itemize}
+
+
+\vbox{\vspace{0,5cm}}
+
+\subsection{Bohrmaschine, rotierende Werkzeuge}
+
+% TODO Gilt das auch für die Proxxon? Für alle rotierenden Werkzeuge? -> Proxxon ist da zu schwach für. Akkuschrauber geht aus, wenn man loslässt -> ungefährlich
+% Original aus GUV-SI 8041: (gilt dort ebenso für Handbohrmaschine, keine Aussage zu Kleingeräten wie Proxxon)
+% Bei Handbohrmaschinen nehme ich an, dass es wegen der meist vorhandenen Arritierung gilt. die hat der Akkuschrauber nicht.
+% ich bekomme das begründet, warum wir die Regel nur für Standbohrmaschine machen
+
+% • Bei der Durchführung von Arbeiten
+% auf eng anliegende Kleidung achten
+% (insbesondere eng anliegende Ärmel)
+% – lange Haare durch Mütze oder
+% Haarnetz sichern,
+% – Ringe, Armbänder, Uhren, Halsket-
+% ten und -tücher abnehmen,
+% – lose Kittel und Schürzen sind unge-
+% eignet,
+% – bei Arbeiten mit rotierenden Werk-
+% zeugen keine Handschuhe tragen.
+
+\begin{itemize}
+	% Schutzbrille bei spröden Werkstoffen (GUV-SI 8038 Metall)
+	\item Beim Bohren von spröden und splittergefährdeten Materialien Schutzbrille aufsetzen
+	\item Wenn erforderlich (kleines Werkstück oder großer Bohrer), Werkstück gegen Verdrehen sichern
+	\item Standbohrmaschine: Grundsätzlich Maschinenschraubstock verwenden und die dort stehenden Hinweise einhalten
+	\item \textbf{Lange Haare mit festsitzender Kopfbedeckung (Haarnetz, Mütze oder Kopftuch) sichern!}
+\end{itemize}
+\textit{Grund: Wenn Haare in die Bohrmaschine gezogen werden, kann dies dazu führen, dass diese als Strang mit der Haarwurzel herausgerissen werden (der bessere Fall) oder die komplette Kopfhaut heruntergerissen wird (worst case).}
+
+\begin{itemize}
+	% TODO Definition langer Haare, was genau ist der Spindelumfang -> Umfang des Bohrfutters oder der Welle davor, wenn die zugänglich ist
+	% "Mütze oder Kopftuch" gemäß GUV-SI 8038, S. 20
+	% "Haarnetz oder festsitzende Kopfbedeckung" gemäß BGI 578, S. 32
+	\item Abstand halten von allem, das sich (schnell) dreht!
+	% können auch vom Bohrer erfasst werden (GUV-SI 8041 Holz an Schulen)
+	\item \textbf{Weder Handschuhe, lose Kleidung} (z.B. Kittel, Schürzen, Schals, Krawatten, Halstücher, \dots) noch \textbf{Schmuck} (Ringe, Arm\-bänder, Uhren, Ketten u.ä.) tragen.
+\end{itemize}
+\textit{Grund: Werden Kleidungsstücke von der Maschine erfasst, zieht die Maschine Körperteile zu sich hin, was äußerst unangenehme Folgen hat.}
+
+\begin{itemize}
+	\item Bei Ungewissheit Betruer fragen
+\end{itemize}
+
+\vbox{\vspace{0,5cm}}
+
+\section{Bezahlen und Verwenden von Material aus dem FabLab}
+\begin{itemize}
+	\item Preise können dem Kassenterminal oder den Aufklebern der Produkte entnommen werden
+	\item Die Bezahlung erfolg über das Kassenterminal (auf Vertrauensbasis). Bei Problemen wende dich an einen Betreuer
+	\item Getränke nicht in die blaue Kasse zahlen, die rote verwenden
+	
+\end{itemize}
+
+
+\newpage
+\section{Weitere Hinweise für Betreuer}
+\subsection{Verwendungsverbote}
+\begin{itemize}
+	\item Asbest (Hitzedämmung in Elektrogeräten vor 1993, z.B. Toaster und Haartrockner)
+	\item Bildröhren
+\end{itemize}
+
+\subsection{Standbohrmaschine}
+\begin{itemize}
+	\item Ausnahme, keinen Maschinenschraubstock benutzen zu müssen, nur, wenn sichergestellt ist, dass nichts passiert. Soweit möglich alle kritische Sachen mit dem Akkuschrauber machen
+\end{itemize}
+
+
+\end{document}

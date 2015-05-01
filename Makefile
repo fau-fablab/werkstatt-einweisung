@@ -1,0 +1,2 @@
+TARGET=Einweisung_Werkstatt
+include fablab-document/Makefile.include

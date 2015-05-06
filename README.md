@@ -15,6 +15,7 @@ git clone --recursive git@github.com:fau-fablab/werkstatt-einweisung.git
 Technische Details zum Buildserver siehe auf macgyver `/home/buildserver/README`
 
 [![Build Status](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/status.svg)](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/)
+[![TODOs](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/status-todos.svg)](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/)
 
 Lizenz
 ------

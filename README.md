@@ -3,7 +3,7 @@ Werkstatt Einweisung
 
 Allgemeine Werkstattregeln des [FAU FabLab](https://fablab.fau.de).
 
-Die neueste Version der Einweisung aus [github](https://github.com/fau-fablab/werkstatt-einweisung) ist als PDF unter https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/Einweisung_Werkstatt.pdf abrufbar.
+Die neueste Version der Einweisung aus [github](https://github.com/fau-fablab/werkstatt-einweisung) ist als PDF unter https://brain.fablab.fau.de/build/werkstatt-einweisung/Einweisung_Werkstatt.pdf abrufbar.
 
 auschecken
 ----------
@@ -14,8 +14,8 @@ git clone --recursive git@github.com:fau-fablab/werkstatt-einweisung.git
 
 Technische Details zum Buildserver siehe auf macgyver `/home/buildserver/README`
 
-[![Build Status](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/status.svg)](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/)
-[![TODOs](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/status-todos.svg)](https://user.fablab.fau.de/~buildserver/werkstatt-einweisung/)
+[![Build Status](https://brain.fablab.fau.de/build/werkstatt-einweisung/status.svg)](https://brain.fablab.fau.de/build/werkstatt-einweisung/)
+[![TODOs](https://brain.fablab.fau.de/build/werkstatt-einweisung/status-todos.svg)](https://brain.fablab.fau.de/build/werkstatt-einweisung/)
 
 Lizenz
 ------

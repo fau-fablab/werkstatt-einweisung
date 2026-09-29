@@ -1,2 +1,2 @@
-TARGET=Einweisung_Werkstatt Einweisungsliste_Werkstatt
+TARGET=Einweisung_Werkstatt Einweisungsliste_Werkstatt Einweisung_Werkstatt_en Einweisungsliste_Werkstatt_en
 include fablab-document/Makefile.include

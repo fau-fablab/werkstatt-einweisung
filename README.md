@@ -19,6 +19,7 @@ Die neueste Version aus [GitHub](https://github.com/fau-fablab/werkstatt-einweis
 
 - [Einweisung](https://brain.fablab.fau.de/build/werkstatt-einweisung/Einweisung_Werkstatt.pdf)
 - [Einweisungsliste](https://brain.fablab.fau.de/build/werkstatt-einweisung/Einweisungsliste_Werkstatt.pdf)
+- English: [Instruction](https://brain.fablab.fau.de/build/werkstatt-einweisung/Einweisung_Werkstatt_en.pdf), [Instruction list](https://brain.fablab.fau.de/build/werkstatt-einweisung/Einweisungsliste_Werkstatt_en.pdf)
 
 Außerdem baut eine GitHub Action die PDFs bei jedem Push. Auf dem Hauptbranch entsteht dabei ein
 [Release](https://github.com/fau-fablab/werkstatt-einweisung/releases) mit Datums-Version (`vJJJJ.MM.TT`) und den PDFs.
@@ -32,7 +33,7 @@ cd werkstatt-einweisung
 make
 ```
 
-Die PDFs landen in `output/`. Layout, Kopf- und Fußzeile und das Logo des FAU FabLab (mit
+Die PDFs (Deutsch und Englisch, Endung `_en`) landen in `output/`. Layout, Kopf- und Fußzeile und das Logo des FAU FabLab (mit
 FAU-Schriftzug) kommen aus dem Untermodul [fablab-document](https://github.com/fau-fablab/fablab-document),
 das Logo wiederum aus dessen Untermodul [logo](https://github.com/fau-fablab/logo). Bei einem bestehenden
 Klon die Untermodule mit `git submodule update --init --recursive` laden.
